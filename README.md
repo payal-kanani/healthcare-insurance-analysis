@@ -21,7 +21,6 @@ This data contains **1338 rows** and is relatively clean with no missing values,
 ## Business Requirements
 - Understand how personal attributes and regional factors influence healthcare insurance costs.
 - Provide actionable insights to policy makers, insurance companies, and customers.
-- Build a predictive model to estimate insurance charges based on user input data.
 
 ## Hypothesis and how to validate?
 * Hypothesis 1: Smokers are charged significantly more for health insurance than non-smokers.
@@ -79,7 +78,6 @@ This data contains **1338 rows** and is relatively clean with no missing values,
 * **Plotly** — For interactive and dynamic visualizations.
 
 ## Credits 
-
 * **Content:**
     * Dataset Source: Kaggle
     * Project structure and inspiration from Code Institute coursework

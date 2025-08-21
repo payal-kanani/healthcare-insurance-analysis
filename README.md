@@ -25,7 +25,8 @@ This data contains **1338 rows** and is relatively clean with no missing values,
 ## Hypothesis and how to validate?
 * Hypothesis 1: Smokers are charged significantly more for health insurance than non-smokers.
 * Hypothesis 2: BMI and insurance charges have a positive correlation.
-* Hypothesis 3: People from different regions pay different insurance charges.
+* Hypothesis 3: Insurance charges are the same regardless of number of children. 
+* Hypothesis 4: People from different regions pay different insurance charges.
 
 ## Project Plan
 * Data Collection
@@ -55,10 +56,17 @@ This data contains **1338 rows** and is relatively clean with no missing values,
 
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
+* The Healthcare Insurance Cost Analysis Dashboard was designed to provide clear, actionable insights into the factors influencing health insurance prices. It includes multiple pages with interactive elements to help both technical and non-technical audiences understand cost drivers.
+
+### **Design Approach**
+* I used PowerBI to build a dashboard. To review the dashboard, please download the .pbix file from the [# dashboard] folder and open it locally on your system.
+
+
+* The dashboard was designed with accessibility and clarity in mind:
+    * Used interactive filters and widgets to allow users to explore “what-if” scenarios.
+    * Combined statistical analysis with visual storytelling so that both technical users (analysts, developers) and non-technical users (managers, policymakers) can extract value.
+    * Structured the navigation into clear pages (Overview → Demographics → Lifestyle → Predictions) to guide users from general insights to deeper analytical layers.
+
 
 ## Unfixed Bugs
 * None currently reported. All preprocessing and visualizations executed without errors.
